@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Universe Portfolio</title>
+    <title>Universe</title> <!-- This changes the browser tab name -->
     <style>
-        /* 1. THE SPACE THEME COLORS */
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            width: 100%; 
-            height: 100%; 
-            overflow: hidden; 
-            background: #050505; 
-            color: white; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #090a0f;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         /* 2. THE BACKGROUND GRADIENT */
@@ -45,6 +41,7 @@
             text-shadow: 0 0 20px #5fed83; 
             margin: 0; 
             font-weight: 900;
+            color: white;
         }
 
         p { 
@@ -88,8 +85,8 @@
     </style>
 </head>
 <body>
+
     <div class="universe">
-        <!-- Canvas for the animated star background -->
         <canvas id="stars"></canvas>
         
         <!-- Main visible text and button -->
